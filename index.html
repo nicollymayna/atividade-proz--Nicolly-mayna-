@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/lightslider.css">
+        
+        <title>Sidebar sub menus</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">LOGO</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Messenger</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Analytics</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Team</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+
+    <!-- FRETE -->
+    <div class="frete">
+        <i class='bx bxs-truck truck'></i>
+        <h2>frete grátis para compras acima de R$ 120,00</h2>
+    </div>
+
+    <main>
+        <section class="banner">
+            <ul id="adaptive" class="cs-hidden">
+                <li class="item-a">
+                    <img src="assets\img\Design sem nome.png" alt="banner promocional">
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="popular section bd-container" id="popular">
+            <div class="popular__content">
+                <div class="titles">
+                    <span class="section-subtitle">Começe por Aqui!</span>
+                    <h1 class="section-title">Recomendações</h1>
+                </div>
+
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Livros Clássicos <span>Clássicos</span></h3>
+                                <p>R$ 50,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+
+                        <div class="discount"> 15%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/o-bebe-de-rosemary-0-removebg-preview (1).png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>O Bebê De Rosemary <span>Ira Levin</span></h3>
+                                <p>R$ 64,99</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/darkside_jason-removebg-preview (2).png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>feminino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/it_a_coisa-removebg-preview (1).png" alt="shoe feminino">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>masculino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="more">
+                    <a href="#">ver mais</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="more__shoes section bd-container" id="category">
+            <div class="titles">
+                <span class="section-subtitle">separamos por</span>
+                <h1 class="section-title">Categorias</h1>
+            </div>
+
+            <div class="more__content">
+                <div class="card__more card__more__men">
+                    <img src="assets/img/men.jpg" alt="men">
+                    <div class="card__more__content">
+                        <h2>King</h2>
+                    </div>
+                </div>
+
+                <div class="card__more card__more__women">
+                    <img src="assets/img/o-bebe-de-rosemary-0-removebg-preview (1).png" alt="Clássicos">
+                    <div class="card__more__content">
+                        <h2>Clássicos</h2>
+                    </div>
+                </div>
+
+                <div class="card__more card__more__kids">
+                    <img src="assets/img/horro_livro-removebg-preview (2).png" alt="infantil">
+                    <div class="card__more__content">
+                        <h2>Contemporâneo</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bd-container" id="launch">
+            <div class="titles">
+                <span class="section-subtitle">confira nossos</span>
+                <h1 class="section-title">Lançamentos</h1>
+            </div>
+            <div class="gallery">
+                <div class="gallery__list">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/masc1.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>NIke Shoes</h1>
+                                <span>masculino</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 199,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="gallery__list__right">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/masc4.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>NIke Shoes</h1>
+                                <span>masculino</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 199,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/fem5.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>NIke Shoes</h1>
+                                <span>feminino</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 199,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/masc3.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>NIke Shoes</h1>
+                                <span>masculino</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 199,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/fem4.png" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>NIke Shoes</h1>
+                                <span>feminino</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 199,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section optin">
+            <div class="optin__content">
+                <h1>Quer 15s% de desconto?</h1>
+                <p>Realize o pagamento no pix e receba 15% de desconto</p>
+                <form action="">
+                    <input type="text" placeholder="Informe sem melhor e-mail">
+                    <button class="btn">QUERO MEU DESCONTO</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="popular section bd-container" id="collection">
+            <div class="titles">
+                <span class="section-subtitle">veja aqui nossa</span>
+                <h1 class="section-title">Coleção</h1>
+            </div>
+            <div class="popular__content">
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/fem1.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>feminino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="discount"> 15%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/masc2.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>masculino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/fem2.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>feminino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/masc3.png" alt="shoe feminino">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>masculino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/fem4.png" alt="shoe feminino">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>feminino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/masc4.png" alt="shoe feminino">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>masculino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/fem5.png" alt="shoe feminino">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>feminino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/fem1.png" alt="shoe feminino">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number">34</div>
+                                <div class="number numberOff">35</div>
+                                <div class="number">36</div>
+                                <div class="number">37</div>
+                                <div class="number">38</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Nike Shoes <span>masculino</span></h3>
+                                <p>R$ 199,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="more">
+                    <a href="#">Os mais vendidos da última década!</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="optin section">
+            <div class="optin__content">
+                <h2>Receba as novidade da <a href="#" class="logo">nlibrary.<span>.</span></a></h2>
+                <p>Cadastre-se e seja um dos primeriros a saber de todos os lançamentos assustadores!</p>
+                <form action="">
+                    <input type="text" placeholder="Informe sem melhor e-mail">
+                    <button class="btn">RECEBER NOVIDADES</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="menu__footer section bd-container">
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Popular</h2>
+                </a>
+                <a href="#">IT A Coisa</a>
+                <a href="#">Jantar Secreto</a>
+                <a href="#">Saboroso Cadáver</a>
+                <a href="#">O Iluminado</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Categoria</h2>
+                </a>
+                <a href="#">Clássicos</a>
+                <a href="#">Contemporâneos</a>
+                <a href="#">Terror Psicológico</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Autores</h2>
+                </a>
+                <a href="#">Junji Ito</a>
+                <a href="#">Stephen King</a>
+                <a href="#">Raphael Montes</a>
+                <a href="#">Edgar Allan Poe</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <h2>Pagamento Seguro</h2>
+                <div class="cards">
+                    <img src="assets/img/Cads/amex.png" alt="">
+                    <img src="assets/img/Cads/aura.png" alt="">
+                    <img src="assets/img/Cads/dinners.png" alt="">
+                    <img src="assets/img/Cads/discover.png" alt="">
+                    <img src="assets/img/Cads/elo.png" alt="">
+                    <img src="assets/img/Cads/hiper.png" alt="">
+                    <img src="assets/img/Cads/jcb.png" alt="">
+                    <img src="assets/img/Cads/mastercard.png" alt="">
+                    <img src="assets/img/Cads/visa.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content bd-container">
+            <h1><a href="#" class="logo">nlibrarys.<span>.</span></a></h1>
+            <p>É um Front End de um e-commerce</p>
+            <p>*Todas as imagens utilizadas nesse projeto tem seus diretios autorais, não podendo ser usado em um
+                projeto real.</p>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main2.js"></script>
+        <script src="assets/js/lightslider.js"></script>
+        <script src="assets/js/jquery.js"></script>
+    </body>
+</html>
